@@ -162,9 +162,10 @@ amzn_mle_sstd <- sum(-dstd(x1, mean = theta[1], sd = theta[2], nu = theta[3], lo
 #### Distribution AICs
 
 The AICs, displayed below are calculated using the following formula:  
-$$ 
-AIC = -2\*log\[\hat{L(\theta})\]-2p, \space \text{where } p \text{ is the length of } \theta
-$$
+
+```math
+AIC = -2*log[\hat{L(\theta})]-2p, \space \text{where } p \text{ is the length of } \theta
+```
 
 <table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
 <thead>
