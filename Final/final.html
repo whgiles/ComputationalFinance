@@ -1,0 +1,1344 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.1.251">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="W. Hunter Giles">
+
+<title>Final Project</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+<script src="final_files/libs/clipboard/clipboard.min.js"></script>
+<script src="final_files/libs/quarto-html/quarto.js"></script>
+<script src="final_files/libs/quarto-html/popper.min.js"></script>
+<script src="final_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="final_files/libs/quarto-html/anchor.min.js"></script>
+<link href="final_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="final_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="final_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="final_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="final_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Final Project</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>W. Hunter Giles </p>
+          </div>
+  </div>
+    
+    
+  </div>
+  
+
+</header>
+
+<section id="aim" class="level2">
+<h2 class="anchored" data-anchor-id="aim">Aim</h2>
+<p>This project aims to estimate the market risk of a portfolio containing two different financial stocks. The risk estimand chosen is Value-at-Risk (VaR) because of its wide use and interpretability. VaR requires two parameters, a confidence coefficient and a time horizon. We use a 99% confidence level for the next day’s portfolio log return. This process is iterated over several portfolio weights to determine the lowest risk combination. The process to obtain this goal utilizes advanced econometric techniques.</p>
+</section>
+<section id="data-sets" class="level2">
+<h2 class="anchored" data-anchor-id="data-sets">Data Sets</h2>
+<div class="cell" data-hash="final_cache/html/unnamed-chunk-4_8ba67933b11458cc420aed52bf829e24">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<p>Morgan Stanley (MS) and Direxion Daily S&amp;P 500 Bull 3X Shares (SPXL) are the two stocks that make up the portfolio. Morgan Stanley is an investment management and financial services company currently the sixty-fourth largest weighted stock in the S&amp;P 500. The firm supplies investment banking products globally to individuals, corporations, and governments. As of 2022, the company has a 150.758 billion market cap and is projected to bring in more than 60 billion in revenue this year.</p>
+<p>The S&amp;P 500 is a market-cap-weighted index of the top 500 large-cap and mid-cap US companies. SPXL is a tactical leverage product that gets 3x exposure (this is subject to variation) to the S&amp;P 500. According to yahoo finance, the fund invests approximately 80% of its assets in various financial instruments, including swaps, S&amp;P securities, and ETFs. Ten years ago, the stock was trading at $6.30 a share, as of 11/15/2022, it is trading at 60.54 a share (1,003% increase), with a spike in January 2022 at $145.77 per share.</p>
+<p>This analysis uses ten years of daily data between 11/15/2012 to 11/15/2022 for both MS and SPXL. The data is collected from yahoo finance’s API. The financial engineering that went into the project is explained step-by-step in the code/text below. The entire code used for the project, including the graphs, is in the Appendix.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-10-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</section>
+<section id="explore-data" class="level2">
+<h2 class="anchored" data-anchor-id="explore-data">Explore Data</h2>
+<section id="spxl" class="level3">
+<h3 class="anchored" data-anchor-id="spxl">SPXL</h3>
+<p>Given the yahoo finance data, log returns are calculated and analyzed. Figure 2.3 shows the SPXL returns have a bell-shaped curve with a mean return of .00098, a standard deviation of .03326, and light tales. Figure 2.1 displays SPXL log returns over time, and figure 2.2 shows the same time series volatility. These two graphs indicate the stationary time series (Augmented Dicky Fuller in Appendix A) has time-varying volatility. A normal ARIMA process assumes constant condition variance, so the data suggests we need a GARCH model.</p>
+<p>An ACF plot is displayed below. The autocorrelation coefficient converges to zero, further indicating a stationary trend. However, the Ljung-Box test results (Appendix B) show a non-zero correlation in the first ten lags (k=10). From this, we can reject the white noise null hypothesis and take advantage of the serial correlation in an AR process.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-14-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-16-1.png" class="img-fluid" width="384"></p>
+</div>
+</div>
+</section>
+<section id="morgan-stanley" class="level3">
+<h3 class="anchored" data-anchor-id="morgan-stanley">Morgan Stanley</h3>
+<p>The Morgan Stanley log returns have a mean of .00077, a standard deviation of .01965, and light tails. From figure 2.1, the returns appear to be stationary (ADF Test in Appendix A) with time-varying volatility (figure 2.2). The Ljung-Box test outputs a p-value less than .05 (Appendix B), so we can reject the null hypothesis and conclude that there is a short-term serial correlation (K=10). The ACF chart below is another indicator that the data converge to stationary.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-20-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-22-1.png" class="img-fluid" width="384"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="time-series-model" class="level2">
+<h2 class="anchored" data-anchor-id="time-series-model">Time Series Model</h2>
+<section id="ar1-garch11" class="level3">
+<h3 class="anchored" data-anchor-id="ar1-garch11">AR(1) + GARCH(1,1)</h3>
+<p>In the “Explore Data” section, we concluded, with reasonable confidence, that SPXL and MS stock returns are stationary, time-dependent, and subject to heteroskedasticity. These characteristics can be exploited to create a forecasting model for future log returns and volatility. I am constructing an AR(1) + GARCH(1,1) model for this analysis. The conditional mean will be determined by a one-period lag, <span class="math inline">\(X_{t-1}\)</span> (equation 1), and the conditional variance will be a function of the previous period residual, <span class="math inline">\(e_{t-1}\)</span>, and standard deviation <span class="math inline">\(\sigma_{t-1}\)</span> (equation 2). Table 1 shows the MLEs of the process for each stock. A Ljung_Box test on the standard residuals and standard residuals squared output a p-value greater than .05, revealing no serial correlation in <span class="math inline">\(\epsilon\)</span> or <span class="math inline">\(\epsilon^2\)</span> (Appendix C).</p>
+<p><span id="eq-1"><span class="math display">\[  
+X_t = \mu + \phi X_{t-1} + e_t, \space e_t = \sigma_t \epsilon_t
+\tag{1}\]</span></span><br>
+<span id="eq-2"><span class="math display">\[  
+\sigma_t^2 = w + \alpha e_{t-1}^2 + \beta \sigma^2_{t-1}, \space t = 1,...,n
+\tag{2}\]</span></span></p>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr><td colspan="4" style="text-align: left;">
+Table 1</td></tr>
+<tr><th style="border-bottom: 1px solid grey; border-top: 2px solid grey;"></th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">Parameters</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">SPXL</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">MS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: center;">mu</td>
+<td style="text-align: center;">0.00246</td>
+<td style="text-align: center;">0.00113</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: center;">ar1</td>
+<td style="text-align: center;">-0.06089</td>
+<td style="text-align: center;">-0.00276</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: center;">omega</td>
+<td style="text-align: center;">4e-05</td>
+<td style="text-align: center;">2e-05</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: center;">alpha1</td>
+<td style="text-align: center;">0.2393</td>
+<td style="text-align: center;">0.11647</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid grey; text-align: left;">5</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">beta1</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">0.73317</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">0.81858</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="residual-fits" class="level3">
+<h3 class="anchored" data-anchor-id="residual-fits">Residual Fits</h3>
+<p>The standard residuals, <span class="math inline">\(\epsilon\)</span>, from the <span class="math inline">\(AR(1) + GARCH(1,1)\)</span> model can be exploited to approximate the model error distribution. Each stock’s standard residuals are fitted to a Student’s T distribution. The tables below show the MLEs for SPXL and Morgan Stanley after being fitted to the t distribution (Table 2). The standard residuals are transformed into probabilities using the fitted student t CDF. The probability’s joint distribution is plotted non-parametrically in figure 4. This figure shows high tail dependencies between the two stocks.</p>
+<p>A parametric approach is also used. A Gaussian copula, Gumbel copula, and Clayton copula are explored; however, the t-copula had the lowest AIC and BIC, so it was chosen for the residual analysis. The copulas and their respective AIC and BICs are below (Table 4).</p>
+<section id="student-t-distrubution" class="level4">
+<h4 class="anchored" data-anchor-id="student-t-distrubution">Student T Distrubution</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr><td colspan="3" style="text-align: left;">
+Table 2</td></tr>
+<tr>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">Parameter</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">SPXL</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">MS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">mean</td>
+<td style="text-align: center;">-0.00669</td>
+<td style="text-align: center;">-0.01613</td>
+</tr>
+<tr>
+<td style="text-align: center;">sd</td>
+<td style="text-align: center;">0.79433</td>
+<td style="text-align: center;">0.82586</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid grey; text-align: center;">df</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">5.35024</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">6.24645</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+<section id="copula-fit" class="level3">
+<h3 class="anchored" data-anchor-id="copula-fit">Copula Fit</h3>
+<section id="set-up" class="level4">
+<h4 class="anchored" data-anchor-id="set-up">Set-up</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr><td colspan="2" style="text-align: left;">
+Table 3</td></tr>
+<tr><th style="border-bottom: 1px solid grey; border-top: 2px solid grey;"></th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">Error Associations</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">pearson</td>
+<td style="text-align: center;">0.68598</td>
+</tr>
+<tr>
+<td style="text-align: left;">kendall</td>
+<td style="text-align: center;">0.49327</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid grey; text-align: left;">omega</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">0.6996</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>Below is the non-parametric probability density estimations for original monthly data.</p>
+<div class="cell" data-hash="final_cache/html/unnamed-chunk-44_0b69079858717cfe939327a77220ff21">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-44-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+</section>
+<section id="aic-bic" class="level4">
+<h4 class="anchored" data-anchor-id="aic-bic">AIC &amp; BIC</h4>
+<p><span class="math display">\[
+AIC = -2*log[\hat{L(\theta})]+2p, \space \text{where } p \text{ is the length of } \theta
+\]</span></p>
+<p><span class="math display">\[
+BIC  = -2*log[\hat{L(\theta})]+p*log(n), \space \text{where } p \text{ is the length of } \theta
+\]</span></p>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr><td colspan="3" style="text-align: left;">
+Table 4</td></tr>
+<tr><th style="border-bottom: 1px solid grey; border-top: 2px solid grey;"></th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">AIC</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">BIC</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">t-copula</td>
+<td style="text-align: center;">-1805.28</td>
+<td style="text-align: center;">-1793.62</td>
+</tr>
+<tr>
+<td style="text-align: left;">guassian</td>
+<td style="text-align: center;">-1716.47</td>
+<td style="text-align: center;">-1710.64</td>
+</tr>
+<tr>
+<td style="text-align: left;">gumbel</td>
+<td style="text-align: center;">-1605.09</td>
+<td style="text-align: center;">-1599.26</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid grey; text-align: left;">clayton</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">-1605.09</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">-1599.26</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+</section>
+</section>
+<section id="residual-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="residual-analysis">Residual Analysis</h2>
+<section id="spxl-1" class="level3">
+<h3 class="anchored" data-anchor-id="spxl-1">SPXL</h3>
+<p>Figure 5.1 shows the volatility of SPXL log returns superimposed with the predicted standard deviation,<span class="math inline">\(\sigma\)</span>, for the GARCH(1,1) function. The GARCH(1,1) predicts the volatility well. The standard residuals have a mean of -0.01818 and a standard deviation of 0.99950. Figure 5.4 and figure 5.5 indicate that the standard residual lag terms are not correlated and that the data is stationary. A Ljung-Box test for standard residuals and standard residual squared confirms no autocorrelation (Appendix C).</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-74-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="final_files/figure-html/unnamed-chunk-76-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="final_files/figure-html/unnamed-chunk-76-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+</section>
+<section id="morgan-stanley-1" class="level3">
+<h3 class="anchored" data-anchor-id="morgan-stanley-1">Morgan Stanley</h3>
+<p>Figure 6.1 shows the volatility of MS log returns superimposed with the predicted standard deviation,<span class="math inline">\(\sigma\)</span>, for the GARCH(1,1) function. The GARCH(1,1) predicts the volatility well. The standard residuals have a mean of -0.024100 and a standard deviation of 0.99933. Figures 6.4 and 6.5 indicate that the standard residual lag terms are not correlated and that the data is stationary.</p>
+<div class="cell">
+<div class="cell-output-display">
+<p><img src="final_files/figure-html/unnamed-chunk-80-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+<div class="cell quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="final_files/figure-html/unnamed-chunk-82-1.png" class="img-fluid" width="672"></p>
+</div>
+<div class="cell-output-display quarto-layout-cell" style="flex-basis: 50.0%;justify-content: center;">
+<p><img src="final_files/figure-html/unnamed-chunk-82-2.png" class="img-fluid" width="672"></p>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="risk-calculation" class="level2">
+<h2 class="anchored" data-anchor-id="risk-calculation">Risk Calculation</h2>
+<p>The Value-at-Risk (VaR) is calculated for different portfolio allocations between SPXL and MS<span class="math inline">\((\rho = .1,.2,...,.9)\)</span>. To get an accurate measure, a sample of 10,000 standard residuals are taken from the t-copula distribution. It is important to note that the sample maintains marginal distributions and associations but does not have a time dimension. The sampled residuals are substituted into the <span class="math inline">\(AR(1) + GARCH(1,1)\)</span> model along with the 11/15/22 portfolio forecast (equation 3). The output of this process is a distribution of possible t+1 forecasts for each portfolio allocation.</p>
+<p><span id="eq-3"><span class="math display">\[  
+\begin{bmatrix}
+P_{1,\rho = .1}^t &amp; \cdots &amp; P_{1,\rho = .9}^t \\
+\vdots &amp; \ddots &amp; \vdots \\
+P_{n,\rho = .1}^t &amp; \cdots &amp; P_{n,\rho = .9}^t
+\end{bmatrix} =
+\begin{bmatrix}
+(\mu + \phi X_{t-1} + \sigma_t \epsilon_1^*) &amp;  (\tilde{\mu} + \tilde{\phi X_{t-1}} + \tilde{\sigma_t} \tilde{\epsilon}_1^*) \\
+\vdots &amp; \vdots\\
+(\mu + \phi X_{t-1} + \sigma_t \epsilon_n^*) &amp;  (\tilde{\mu} + \tilde{\phi X_{t-1}} + \tilde{\sigma_t} \tilde{\epsilon}_n^*) \\
+\end{bmatrix}
+\begin{bmatrix}
+\rho_{\rho = .1} &amp; (1-\rho_{\rho = .1}) \\
+\vdots &amp; \vdots \\
+\rho_{\rho = .9} &amp; (1-\rho_{\rho = .9})
+\end{bmatrix}^T
+\tag{3}\]</span></span></p>
+<p><span class="math display">\[  
+\text{where } n=10,000, \text{ and } \sigma_t
+\text{ is a GARCH(1,1) process}
+\]</span></p>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<p>Table 6 shows the VaR for different shares of the SPXL in the portfolio. Portfolios can reduce risk by decreasing the portfolio’s exposure to SPXL. For example, if the portfolio is 90% SPXL, there is a 10% chance of losing more than 0.056 cents per dollar invested. If the portfolio is 10% SPXL, there is a 10% chance of losing more than 0.026 cents per dollar invested. However, it should be noted that VaR discriminates against diversifying stock portfolios.</p>
+<div class="cell">
+<div class="cell-output-display">
+
+<table class="gmisc_table" style="border-collapse: collapse; margin-top: 1em; margin-bottom: 1em;">
+<thead>
+<tr><td colspan="2" style="text-align: left;">
+Table 6</td></tr>
+<tr>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">rho</th>
+<th style="font-weight: 900; border-bottom: 1px solid grey; border-top: 2px solid grey; text-align: center;">VaR</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">0.1</td>
+<td style="text-align: center;">0.02598</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.2</td>
+<td style="text-align: center;">0.02849</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.3</td>
+<td style="text-align: center;">0.03162</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.4</td>
+<td style="text-align: center;">0.03518</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.5</td>
+<td style="text-align: center;">0.03906</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.6</td>
+<td style="text-align: center;">0.04318</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.7</td>
+<td style="text-align: center;">0.04745</td>
+</tr>
+<tr>
+<td style="text-align: center;">0.8</td>
+<td style="text-align: center;">0.05186</td>
+</tr>
+<tr>
+<td style="border-bottom: 2px solid grey; text-align: center;">0.9</td>
+<td style="border-bottom: 2px solid grey; text-align: center;">0.05636</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
+<section id="appendix" class="level2">
+<h2 class="anchored" data-anchor-id="appendix">Appendix</h2>
+<section id="a.-augmented-dicky-fuller" class="level3">
+<h3 class="anchored" data-anchor-id="a.-augmented-dicky-fuller">A. Augmented Dicky Fuller</h3>
+<section id="spxl-2" class="level4">
+<h4 class="anchored" data-anchor-id="spxl-2">SPXL</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">adf.test</span>(SPXL<span class="sc">$</span>log.returns) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Augmented Dickey-Fuller Test
+
+data:  SPXL$log.returns
+Dickey-Fuller = -13.197, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary</code></pre>
+</div>
+</div>
+</section>
+<section id="morgan-stanley-2" class="level4">
+<h4 class="anchored" data-anchor-id="morgan-stanley-2">Morgan Stanley</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">adf.test</span>(MS<span class="sc">$</span>log.returns) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Augmented Dickey-Fuller Test
+
+data:  MS$log.returns
+Dickey-Fuller = -13.238, Lag order = 13, p-value = 0.01
+alternative hypothesis: stationary</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="b.-ljung-box-test-on-log-returns" class="level3">
+<h3 class="anchored" data-anchor-id="b.-ljung-box-test-on-log-returns">B. Ljung-Box Test on Log Returns</h3>
+<section id="spxl-3" class="level4">
+<h4 class="anchored" data-anchor-id="spxl-3">SPXL</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Box.test</span>(SPXL<span class="sc">$</span>log.returns, <span class="at">lag =</span> <span class="dv">10</span>, <span class="at">type =</span> <span class="st">"Ljung-Box"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Box-Ljung test
+
+data:  SPXL$log.returns
+X-squared = 246.56, df = 10, p-value &lt; 2.2e-16</code></pre>
+</div>
+</div>
+</section>
+<section id="morgan-stanley-3" class="level4">
+<h4 class="anchored" data-anchor-id="morgan-stanley-3">Morgan Stanley</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">Box.test</span>(MS<span class="sc">$</span>log.returns, <span class="at">lag =</span> <span class="dv">10</span>, <span class="at">type =</span> <span class="st">"Ljung-Box"</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+    Box-Ljung test
+
+data:  MS$log.returns
+X-squared = 102.45, df = 10, p-value &lt; 2.2e-16</code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="c.-argarch-model-fits" class="level3">
+<h3 class="anchored" data-anchor-id="c.-argarch-model-fits">C. AR+GARCH Model Fits</h3>
+<section id="spxl-4" class="level4">
+<h4 class="anchored" data-anchor-id="spxl-4">SPXL</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>spxl.ar.garch</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+*---------------------------------*
+*          GARCH Model Fit        *
+*---------------------------------*
+
+Conditional Variance Dynamics   
+-----------------------------------
+GARCH Model : sGARCH(1,1)
+Mean Model  : ARFIMA(1,0,0)
+Distribution    : norm 
+
+Optimal Parameters
+------------------------------------
+        Estimate  Std. Error  t value Pr(&gt;|t|)
+mu      0.002462    0.000385   6.3941 0.000000
+ar1    -0.060890    0.022523  -2.7035 0.006862
+omega   0.000039    0.000005   7.2586 0.000000
+alpha1  0.239296    0.023844  10.0361 0.000000
+beta1   0.733170    0.021450  34.1807 0.000000
+
+Robust Standard Errors:
+        Estimate  Std. Error  t value Pr(&gt;|t|)
+mu      0.002462    0.000393   6.2619 0.000000
+ar1    -0.060890    0.020594  -2.9566 0.003110
+omega   0.000039    0.000008   4.7514 0.000002
+alpha1  0.239296    0.035486   6.7434 0.000000
+beta1   0.733170    0.030589  23.9684 0.000000
+
+LogLikelihood : 5716.828 
+
+Information Criteria
+------------------------------------
+                    
+Akaike       -4.5404
+Bayes        -4.5288
+Shibata      -4.5404
+Hannan-Quinn -4.5362
+
+Weighted Ljung-Box Test on Standardized Residuals
+------------------------------------
+                        statistic p-value
+Lag[1]                      2.093  0.1480
+Lag[2*(p+q)+(p+q)-1][2]     2.174  0.1605
+Lag[4*(p+q)+(p+q)-1][5]     2.960  0.4415
+d.o.f=1
+H0 : No serial correlation
+
+Weighted Ljung-Box Test on Standardized Squared Residuals
+------------------------------------
+                        statistic p-value
+Lag[1]                   0.007101  0.9328
+Lag[2*(p+q)+(p+q)-1][5]  0.762522  0.9106
+Lag[4*(p+q)+(p+q)-1][9]  2.411629  0.8506
+d.o.f=2
+
+Weighted ARCH LM Tests
+------------------------------------
+            Statistic Shape Scale P-Value
+ARCH Lag[3]  0.005095 0.500 2.000  0.9431
+ARCH Lag[5]  1.851611 1.440 1.667  0.5050
+ARCH Lag[7]  2.905555 2.315 1.543  0.5316
+
+Nyblom stability test
+------------------------------------
+Joint Statistic:  1.5914
+Individual Statistics:              
+mu     0.06852
+ar1    0.03956
+omega  0.25968
+alpha1 0.80986
+beta1  0.86101
+
+Asymptotic Critical Values (10% 5% 1%)
+Joint Statistic:         1.28 1.47 1.88
+Individual Statistic:    0.35 0.47 0.75
+
+Sign Bias Test
+------------------------------------
+                   t-value      prob sig
+Sign Bias           3.6434 0.0002746 ***
+Negative Sign Bias  0.7840 0.4331251    
+Positive Sign Bias  0.1473 0.8828732    
+Joint Effect       20.7247 0.0001201 ***
+
+
+Adjusted Pearson Goodness-of-Fit Test:
+------------------------------------
+  group statistic p-value(g-1)
+1    20     132.9    4.079e-19
+2    30     156.6    1.878e-19
+3    40     173.2    7.770e-19
+4    50     186.5    6.582e-18
+
+
+Elapsed time : 0.1319671 </code></pre>
+</div>
+</div>
+</section>
+<section id="morgan-stanley-4" class="level4">
+<h4 class="anchored" data-anchor-id="morgan-stanley-4">Morgan Stanley</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>ms.ar.garch</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>
+*---------------------------------*
+*          GARCH Model Fit        *
+*---------------------------------*
+
+Conditional Variance Dynamics   
+-----------------------------------
+GARCH Model : sGARCH(1,1)
+Mean Model  : ARFIMA(1,0,0)
+Distribution    : norm 
+
+Optimal Parameters
+------------------------------------
+        Estimate  Std. Error  t value Pr(&gt;|t|)
+mu      0.001128    0.000322  3.50540 0.000456
+ar1    -0.002761    0.021890 -0.12612 0.899638
+omega   0.000022    0.000006  3.69389 0.000221
+alpha1  0.116475    0.020896  5.57412 0.000000
+beta1   0.818577    0.034919 23.44221 0.000000
+
+Robust Standard Errors:
+        Estimate  Std. Error  t value Pr(&gt;|t|)
+mu      0.001128    0.000314   3.5944 0.000325
+ar1    -0.002761    0.022911  -0.1205 0.904089
+omega   0.000022    0.000012   1.8830 0.059697
+alpha1  0.116475    0.044046   2.6444 0.008184
+beta1   0.818577    0.071649  11.4248 0.000000
+
+LogLikelihood : 6626.937 
+
+Information Criteria
+------------------------------------
+                    
+Akaike       -5.2639
+Bayes        -5.2523
+Shibata      -5.2639
+Hannan-Quinn -5.2597
+
+Weighted Ljung-Box Test on Standardized Residuals
+------------------------------------
+                        statistic p-value
+Lag[1]                     0.4505  0.5021
+Lag[2*(p+q)+(p+q)-1][2]    0.9440  0.7730
+Lag[4*(p+q)+(p+q)-1][5]    1.6090  0.8192
+d.o.f=1
+H0 : No serial correlation
+
+Weighted Ljung-Box Test on Standardized Squared Residuals
+------------------------------------
+                        statistic p-value
+Lag[1]                     0.5594  0.4545
+Lag[2*(p+q)+(p+q)-1][5]    2.3265  0.5435
+Lag[4*(p+q)+(p+q)-1][9]    4.3052  0.5379
+d.o.f=2
+
+Weighted ARCH LM Tests
+------------------------------------
+            Statistic Shape Scale P-Value
+ARCH Lag[3]     1.037 0.500 2.000  0.3085
+ARCH Lag[5]     2.562 1.440 1.667  0.3599
+ARCH Lag[7]     3.654 2.315 1.543  0.3992
+
+Nyblom stability test
+------------------------------------
+Joint Statistic:  0.7931
+Individual Statistics:             
+mu     0.0587
+ar1    0.1259
+omega  0.3647
+alpha1 0.3456
+beta1  0.4560
+
+Asymptotic Critical Values (10% 5% 1%)
+Joint Statistic:         1.28 1.47 1.88
+Individual Statistic:    0.35 0.47 0.75
+
+Sign Bias Test
+------------------------------------
+                   t-value    prob sig
+Sign Bias          0.06296 0.94980    
+Negative Sign Bias 1.99404 0.04626  **
+Positive Sign Bias 0.34433 0.73063    
+Joint Effect       6.38743 0.09421   *
+
+
+Adjusted Pearson Goodness-of-Fit Test:
+------------------------------------
+  group statistic p-value(g-1)
+1    20     51.74    7.230e-05
+2    30     65.88    1.085e-04
+3    40     80.38    1.079e-04
+4    50    100.38    2.134e-05
+
+
+Elapsed time : 0.1538219 </code></pre>
+</div>
+</div>
+</section>
+</section>
+<section id="d.-ar-and-garch-functions" class="level3">
+<h3 class="anchored" data-anchor-id="d.-ar-and-garch-functions">D. AR and GARCH functions</h3>
+<pre><code>#| echo: FALSE
+ar1 &lt;- function(mu, phi, x_prev) {
+  x = mu*(1-phi) + phi * x_prev
+  return(as.numeric(x))
+}
+
+garch1.1 &lt;- function(omega, alpha, beta, e_prev, sigma_prev) {
+  sigma_sq &lt;- omega + alpha*(e_prev^2) + beta*(sigma_prev^2)
+  sqrt(sigma_sq) %&gt;% as.numeric() %&gt;% return()
+}</code></pre>
+</section>
+<section id="e.-project-code" class="level3">
+<h3 class="anchored" data-anchor-id="e.-project-code">E. Project Code</h3>
+<section id="data-sets-1" class="level4">
+<h4 class="anchored" data-anchor-id="data-sets-1">Data Sets</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(quantmod)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(sn)</span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(MASS)</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(fGarch)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ks)</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(copula)</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(patchwork)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(rugarch)</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(tseries)</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(broom)</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(htmlTable)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">getSymbols</span>(<span class="st">"SPXL;MS"</span>,</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">from =</span> <span class="st">"2012/11/15"</span>,</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>           <span class="at">to =</span> <span class="st">"2022/11/15"</span>,</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>           <span class="at">periodicity =</span> <span class="st">"d"</span>,</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a>           <span class="at">src =</span> <span class="st">"yahoo"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>SPXL <span class="ot">&lt;-</span> SPXL <span class="sc">%&gt;%</span> </span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data.frame</span>()</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>MS <span class="ot">&lt;-</span> MS <span class="sc">%&gt;%</span> </span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data.frame</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>SPXL <span class="ot">&lt;-</span> SPXL <span class="sc">%&gt;%</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">log.returns =</span> <span class="fu">log</span>(SPXL.Adjusted) <span class="sc">-</span> <span class="fu">log</span>(dplyr<span class="sc">::</span><span class="fu">lag</span>(SPXL.Adjusted))) <span class="sc">%&gt;%</span></span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>MS <span class="ot">&lt;-</span> MS <span class="sc">%&gt;%</span> </span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">log.returns =</span> <span class="fu">log</span>(MS.Adjusted) <span class="sc">-</span> <span class="fu">log</span>(dplyr<span class="sc">::</span><span class="fu">lag</span>(MS.Adjusted))) <span class="sc">%&gt;%</span></span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">na.omit</span>()</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>SPXL <span class="ot">&lt;-</span> SPXL <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">date =</span> <span class="fu">rownames</span>(SPXL))</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>MS <span class="ot">&lt;-</span> MS <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">date =</span> <span class="fu">rownames</span>(MS))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL) <span class="sc">+</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date),SPXL.Adjusted)) <span class="sc">+</span></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"SPXL"</span>, <span class="at">y =</span> <span class="st">"Share Price"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">caption =</span> <span class="st">"Figure 1.1"</span>)</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS) <span class="sc">+</span></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date),MS.Adjusted)) <span class="sc">+</span></span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Morgan Stanley"</span>, <span class="at">y =</span> <span class="st">"Share Price"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">caption =</span> <span class="st">"Figure 1.2"</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>a<span class="sc">/</span>b</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(SPXL<span class="sc">$</span>log.returns)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(SPXL<span class="sc">$</span>log.returns)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a><span class="fu">lm</span>(log.returns <span class="sc">~</span><span class="fu">lag</span>(log.returns), <span class="at">data =</span> SPXL)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>time_spxl <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL) <span class="sc">+</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date), log.returns)) <span class="sc">+</span></span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"SPXL Log Returns"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"Log Returns"</span>, <span class="at">caption =</span> <span class="st">"Figure 2.1"</span>)</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>distr_spxl <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL) <span class="sc">+</span></span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(log.returns, ..density..), <span class="at">fill =</span> <span class="st">"white"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">bins =</span> <span class="dv">50</span>) <span class="sc">+</span></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="fu">aes</span>(log.returns), <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> .<span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"SPXL Distribution"</span>, <span class="at">caption =</span> <span class="st">"Figure 2.3"</span>)</span>
+<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>qq_spxl <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL, <span class="fu">aes</span>(<span class="at">sample =</span> log.returns)) <span class="sc">+</span></span>
+<span id="cb20-11"><a href="#cb20-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq</span>() <span class="sc">+</span> </span>
+<span id="cb20-12"><a href="#cb20-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq_line</span>() <span class="sc">+</span></span>
+<span id="cb20-13"><a href="#cb20-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"SPXL QQ"</span>, <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>, <span class="at">y =</span> <span class="st">"Sample Quantiles"</span>, <span class="at">caption =</span> <span class="st">"Figure 2.4"</span>)</span>
+<span id="cb20-14"><a href="#cb20-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-15"><a href="#cb20-15" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL) <span class="sc">+</span></span>
+<span id="cb20-16"><a href="#cb20-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date), <span class="fu">abs</span>(log.returns))) <span class="sc">+</span></span>
+<span id="cb20-17"><a href="#cb20-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date), <span class="fu">abs</span>(log.returns))) <span class="sc">+</span></span>
+<span id="cb20-18"><a href="#cb20-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Volatility of SPXL Log Returns"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"|Log Returns|"</span>, <span class="at">caption =</span> <span class="st">"Figure 2.2"</span>)</span>
+<span id="cb20-19"><a href="#cb20-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-20"><a href="#cb20-20" aria-hidden="true" tabindex="-1"></a>time_spxl <span class="sc">/</span> a <span class="sc">/</span>(distr_spxl <span class="sc">|</span> qq_spxl) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="fu">acf</span>(SPXL<span class="sc">$</span>log.returns, </span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">main =</span> <span class="st">"ACF"</span>, </span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">sub=</span><span class="st">"figure 2.5"</span>,</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.lab =</span> <span class="st">"blue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(MS<span class="sc">$</span>log.returns)</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(MS<span class="sc">$</span>log.returns)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>distr_ms <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS) <span class="sc">+</span></span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(log.returns, ..density..), <span class="at">fill =</span> <span class="st">"white"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">bins =</span> <span class="dv">50</span>) <span class="sc">+</span></span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="fu">aes</span>(log.returns), <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> .<span class="dv">3</span>) <span class="sc">+</span></span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"MS Distribution"</span>, <span class="at">caption =</span> <span class="st">"Figure 3.3"</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>time_ms <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS) <span class="sc">+</span></span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date), log.returns)) <span class="sc">+</span></span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"MS Log Returns"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"Log Returns"</span>, <span class="at">caption =</span> <span class="st">"Figure 3.1"</span>)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>qq_ms <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS, <span class="fu">aes</span>(<span class="at">sample =</span> log.returns)) <span class="sc">+</span></span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq</span>() <span class="sc">+</span> </span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq_line</span>() <span class="sc">+</span></span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"MS QQ"</span>, <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>, <span class="at">y =</span> <span class="st">"Sample Quantiles"</span>, <span class="at">caption =</span> <span class="st">"Figure 3.4"</span>)</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS) <span class="sc">+</span></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date), <span class="fu">abs</span>(log.returns))) <span class="sc">+</span></span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_smooth</span>(<span class="fu">aes</span>(<span class="fu">as.Date</span>(date), <span class="fu">abs</span>(log.returns))) <span class="sc">+</span></span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Volatility of MS Log Returns"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"|Log Returns|"</span>, <span class="at">caption =</span> <span class="st">"Figure 3.2"</span>)</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>time_ms <span class="sc">/</span> a <span class="sc">/</span>(distr_ms <span class="sc">|</span> qq_ms)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">acf</span>(MS<span class="sc">$</span>log.returns, </span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    <span class="at">main =</span> <span class="st">"ACF"</span>, </span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    <span class="at">sub=</span><span class="st">"figure 3.5"</span>,</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">col.lab =</span> <span class="st">"blue"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="creating-the-ar1-garch11" class="level4">
+<h4 class="anchored" data-anchor-id="creating-the-ar1-garch11">Creating the AR(1) + GARCH(1,1)</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span> <span class="fu">coef</span>(spxl.ar.garch) <span class="sc">%&gt;%</span> <span class="fu">tidy</span>()</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>a[,<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="fu">round</span>(a[,<span class="dv">2</span>], <span class="dv">5</span>)</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(a) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Parameters"</span>, <span class="st">"SPXL"</span>)</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">coef</span>(ms.ar.garch) <span class="sc">%&gt;%</span> <span class="fu">tidy</span>()</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>b[,<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="fu">round</span>(b[,<span class="dv">2</span>], <span class="dv">5</span>)</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(b) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"MLE"</span>, <span class="st">"MS"</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a><span class="fu">cbind</span>(a, b[,<span class="dv">2</span>]) <span class="sc">%&gt;%</span> <span class="fu">htmlTable</span>(<span class="at">caption =</span> <span class="st">"Table 1"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="residual-fits-1" class="level4">
+<h4 class="anchored" data-anchor-id="residual-fits-1">Residual Fits</h4>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>spxl.e <span class="ot">&lt;-</span> <span class="fu">residuals</span>(spxl.ar.garch, <span class="at">standardize=</span><span class="cn">TRUE</span>) <span class="co">#returns the standarized residuals</span></span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a>spxl.fit <span class="ot">&lt;-</span> <span class="fu">fitdistr</span>(spxl.e, <span class="st">"t"</span>)</span>
+<span id="cb26-3"><a href="#cb26-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb26-4"><a href="#cb26-4" aria-hidden="true" tabindex="-1"></a>ms.e <span class="ot">&lt;-</span> <span class="fu">residuals</span>(ms.ar.garch, <span class="at">standardize=</span>T) </span>
+<span id="cb26-5"><a href="#cb26-5" aria-hidden="true" tabindex="-1"></a>ms.fit <span class="ot">&lt;-</span> <span class="fu">fitdistr</span>(ms.e, <span class="st">"t"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>spxl.theta <span class="ot">&lt;-</span> spxl.fit<span class="sc">$</span>estimate</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>ms.theta <span class="ot">&lt;-</span> ms.fit<span class="sc">$</span>estimate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb28"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(htmlTable)</span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>t.mle <span class="ot">=</span> <span class="fu">matrix</span>(<span class="fu">rep</span>(<span class="cn">NA</span>,<span class="dv">9</span>), <span class="at">ncol =</span> <span class="dv">3</span>)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>t.mle[,<span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"mean"</span>, <span class="st">"sd"</span>, <span class="st">"df"</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>t.mle[,<span class="dv">2</span>] <span class="ot">&lt;-</span> <span class="fu">round</span>(spxl.theta,<span class="dv">5</span>)</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>t.mle[,<span class="dv">3</span>] <span class="ot">&lt;-</span> <span class="fu">round</span>(ms.theta,<span class="dv">5</span>)</span>
+<span id="cb28-6"><a href="#cb28-6" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(t.mle) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Parameter"</span>, <span class="st">"SPXL"</span>, <span class="st">"MS"</span>)</span>
+<span id="cb28-7"><a href="#cb28-7" aria-hidden="true" tabindex="-1"></a>t.mle <span class="sc">%&gt;%</span> <span class="fu">htmlTable</span>(<span class="at">caption =</span> <span class="st">"Table 2"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="copula-fits" class="level4">
+<h4 class="anchored" data-anchor-id="copula-fits">Copula Fits</h4>
+<section id="set-up-1" class="level5">
+<h5 class="anchored" data-anchor-id="set-up-1">set-up</h5>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb29"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>AICs <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">rep</span>(<span class="cn">NA</span>,<span class="dv">8</span>), <span class="at">ncol =</span> <span class="dv">2</span>)</span>
+<span id="cb29-2"><a href="#cb29-2" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(AICs) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"t-copula"</span>, <span class="st">"guassian"</span>, <span class="st">"gumbel"</span>, <span class="st">"clayton"</span>)</span>
+<span id="cb29-3"><a href="#cb29-3" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(AICs) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"AIC"</span>, <span class="st">"BIC"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb30"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>co <span class="ot">&lt;-</span> <span class="fu">matrix</span>(<span class="fu">rep</span>(<span class="cn">NA</span>, <span class="dv">3</span>),<span class="at">ncol=</span><span class="dv">1</span>)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="fu">colnames</span>(co) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"Error Associations"</span>)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a><span class="fu">rownames</span>(co) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"pearson"</span>, <span class="st">"kendall"</span>, <span class="st">"omega"</span>)</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>co[,<span class="dv">1</span>] <span class="ot">&lt;-</span> <span class="fu">round</span>(<span class="fu">c</span>(<span class="fu">cor</span>(spxl.e, ms.e), tau, omega),<span class="dv">5</span>)</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>co <span class="sc">%&gt;%</span> <span class="fu">htmlTable</span>(<span class="at">caption =</span> <span class="st">"Table 3"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>U.hat <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(u.spxl.e, u.ms.e)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">names</span>(U.hat) <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="st">"SPXL e"</span>, <span class="st">"MS e"</span>)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>fhatU <span class="ot">&lt;-</span> <span class="fu">kde</span>(<span class="at">x=</span>U.hat,<span class="at">H=</span><span class="fu">Hscv</span>(<span class="at">x=</span>U.hat))<span class="co">#nonparametric density estimation </span></span>
+<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a><span class="fu">plot</span>(fhatU,<span class="at">cont=</span><span class="fu">seq</span>(<span class="dv">10</span>,<span class="dv">80</span>,<span class="dv">10</span>), </span>
+<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"Joint Distribution of Probabilities"</span>,</span>
+<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab=</span><span class="st">"SPXL standard residual prob"</span>,</span>
+<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>        <span class="at">ylab=</span><span class="st">"MS standard residual prob"</span>,</span>
+<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a>        <span class="at">sub=</span><span class="st">"figure 4"</span>,</span>
+<span id="cb31-9"><a href="#cb31-9" aria-hidden="true" tabindex="-1"></a>     <span class="at">col.lab =</span> <span class="st">"blue"</span>) <span class="co">#contour plots</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+</section>
+<section id="copulas" class="level4">
+<h4 class="anchored" data-anchor-id="copulas">Copulas</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>my_aic <span class="ot">&lt;-</span> <span class="cf">function</span>(L,p) {</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>  aic <span class="ot">&lt;-</span> <span class="sc">-</span><span class="dv">2</span><span class="sc">*</span>L <span class="sc">+</span> <span class="dv">2</span><span class="sc">*</span>p</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(aic)</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>my_bic <span class="ot">&lt;-</span> <span class="cf">function</span>(L,n,p) {</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>  bic <span class="ot">&lt;-</span> <span class="sc">-</span><span class="dv">2</span><span class="sc">*</span>L <span class="sc">+</span> p<span class="sc">*</span><span class="fu">log</span>(n)</span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">return</span>(bic)</span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>AICs[<span class="dv">1</span>,] <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">my_aic</span>(t_logLik, <span class="dv">2</span>), <span class="fu">my_bic</span>(t_logLik, <span class="fu">nrow</span>(u.spxl.e),<span class="dv">2</span>)) <span class="sc">%&gt;%</span> <span class="fu">round</span>(<span class="dv">2</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>AICs <span class="sc">%&gt;%</span> <span class="fu">htmlTable</span>(<span class="at">caption =</span> <span class="st">"Table 4"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="residual-analysis-1" class="level4">
+<h4 class="anchored" data-anchor-id="residual-analysis-1">Residual Analysis</h4>
+<section id="spxl-5" class="level5">
+<h5 class="anchored" data-anchor-id="spxl-5">SPXL</h5>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb34"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(SPXL<span class="sc">$</span>resid.std)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(SPXL<span class="sc">$</span>resid.std)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>SPXL <span class="ot">&lt;-</span> SPXL <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">fitted =</span> <span class="fu">as.vector</span>(<span class="fu">fitted</span>(spxl.ar.garch))) <span class="sc">%&gt;%</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">resid =</span> <span class="fu">as.vector</span>(<span class="fu">residuals</span>(spxl.ar.garch))) <span class="sc">%&gt;%</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">resid.std =</span> <span class="fu">as.vector</span>(<span class="fu">residuals</span>(spxl.ar.garch, <span class="at">standardize=</span>T))) <span class="sc">%&gt;%</span></span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sigma =</span> <span class="fu">as.vector</span>(<span class="fu">sigma</span>(spxl.ar.garch)))</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span><span class="fu">ggplot</span>(SPXL, <span class="fu">aes</span>(<span class="fu">as.Date</span>(date))) <span class="sc">+</span></span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">abs</span>(log.returns), <span class="at">colour =</span> <span class="st">"|Log Returns|"</span>),<span class="at">alpha =</span> .<span class="dv">5</span>) <span class="sc">+</span> </span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> sigma, <span class="at">colour =</span> <span class="st">"sigma"</span>)) <span class="sc">+</span> </span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_colour_manual</span>(<span class="st">""</span>, </span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>                      <span class="at">breaks =</span> <span class="fu">c</span>(<span class="st">"|Log Returns|"</span>, <span class="st">"sigma"</span>),</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a>                      <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"black"</span>,<span class="st">"blue"</span>)) <span class="sc">+</span></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"|Log Returns| and Conditional SD"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"Volatility"</span>, <span class="at">caption =</span> <span class="st">"figure 5.1"</span>) <span class="sc">+</span></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="fu">c</span>(.<span class="dv">9</span>,.<span class="dv">75</span>))</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL, <span class="fu">aes</span>(resid.std, ..density..)) <span class="sc">+</span></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">fill =</span> <span class="st">"white"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">bins =</span> <span class="dv">50</span>) <span class="sc">+</span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> .<span class="dv">5</span>) <span class="sc">+</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"SPXL Standardized Residuals"</span>, <span class="at">x =</span> <span class="st">"Standardized Residuals"</span>, <span class="at">y =</span> <span class="st">"density"</span>, <span class="at">caption =</span> <span class="st">"figure 5.2"</span>)</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>c <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(SPXL, <span class="fu">aes</span>(<span class="at">sample =</span> resid.std)) <span class="sc">+</span></span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq</span>() <span class="sc">+</span> </span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq_line</span>() <span class="sc">+</span></span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"SPXL Standardized Residuals QQ"</span>, <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>, <span class="at">y =</span> <span class="st">"Sample Quantiles"</span>, <span class="at">caption =</span> <span class="st">"figure 5.3"</span>)</span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a>a <span class="sc">/</span> (b <span class="sc">|</span> c)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell quarto-layout-panel">
+
+</div>
+</section>
+<section id="morgan-stanley-5" class="level5">
+<h5 class="anchored" data-anchor-id="morgan-stanley-5">Morgan Stanley</h5>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="fu">mean</span>(MS<span class="sc">$</span>resid.std)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sd</span>(MS<span class="sc">$</span>resid.std)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb37"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a>MS <span class="ot">&lt;-</span> MS <span class="sc">%&gt;%</span> <span class="fu">mutate</span>(<span class="at">fitted =</span> <span class="fu">as.vector</span>(<span class="fu">fitted</span>(ms.ar.garch))) <span class="sc">%&gt;%</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">resid =</span> <span class="fu">as.vector</span>(<span class="fu">residuals</span>(ms.ar.garch))) <span class="sc">%&gt;%</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">resid.std =</span> <span class="fu">as.vector</span>(<span class="fu">residuals</span>(ms.ar.garch, <span class="at">standardize=</span>T))) <span class="sc">%&gt;%</span></span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(<span class="at">sigma =</span> <span class="fu">as.vector</span>(<span class="fu">sigma</span>(ms.ar.garch)))</span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>a <span class="ot">&lt;-</span><span class="fu">ggplot</span>(MS, <span class="fu">aes</span>(<span class="fu">as.Date</span>(date))) <span class="sc">+</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> <span class="fu">abs</span>(log.returns), <span class="at">colour =</span> <span class="st">"|Log Returns|"</span>),<span class="at">alpha =</span> .<span class="dv">5</span>) <span class="sc">+</span> </span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> sigma, <span class="at">colour =</span> <span class="st">"sigma"</span>)) <span class="sc">+</span> </span>
+<span id="cb37-9"><a href="#cb37-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_colour_manual</span>(<span class="st">""</span>, </span>
+<span id="cb37-10"><a href="#cb37-10" aria-hidden="true" tabindex="-1"></a>                      <span class="at">breaks =</span> <span class="fu">c</span>(<span class="st">"|Log Returns|"</span>, <span class="st">"sigma"</span>),</span>
+<span id="cb37-11"><a href="#cb37-11" aria-hidden="true" tabindex="-1"></a>                      <span class="at">values =</span> <span class="fu">c</span>(<span class="st">"black"</span>,<span class="st">"blue"</span>)) <span class="sc">+</span></span>
+<span id="cb37-12"><a href="#cb37-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"|Log Returns| and Conditional SD"</span>, <span class="at">x =</span> <span class="st">"Date"</span>, <span class="at">y =</span> <span class="st">"Volatility"</span>, <span class="at">caption =</span> <span class="st">"figure 6.1"</span>) <span class="sc">+</span></span>
+<span id="cb37-13"><a href="#cb37-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">legend.position=</span><span class="fu">c</span>(.<span class="dv">9</span>,.<span class="dv">75</span>))</span>
+<span id="cb37-14"><a href="#cb37-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-15"><a href="#cb37-15" aria-hidden="true" tabindex="-1"></a>b <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS, <span class="fu">aes</span>(resid.std, ..density..)) <span class="sc">+</span></span>
+<span id="cb37-16"><a href="#cb37-16" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">fill =</span> <span class="st">"white"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">bins =</span> <span class="dv">50</span>) <span class="sc">+</span></span>
+<span id="cb37-17"><a href="#cb37-17" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">alpha =</span> .<span class="dv">5</span>) <span class="sc">+</span></span>
+<span id="cb37-18"><a href="#cb37-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Morgan Stanley SD"</span>, <span class="at">x =</span> <span class="st">"sigma"</span>, <span class="at">y =</span> <span class="st">"density"</span>, <span class="at">caption =</span> <span class="st">"figure 6.2"</span>)</span>
+<span id="cb37-19"><a href="#cb37-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-20"><a href="#cb37-20" aria-hidden="true" tabindex="-1"></a>c <span class="ot">&lt;-</span> <span class="fu">ggplot</span>(MS, <span class="fu">aes</span>(<span class="at">sample =</span> resid.std)) <span class="sc">+</span></span>
+<span id="cb37-21"><a href="#cb37-21" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq</span>() <span class="sc">+</span> </span>
+<span id="cb37-22"><a href="#cb37-22" aria-hidden="true" tabindex="-1"></a>  <span class="fu">stat_qq_line</span>() <span class="sc">+</span></span>
+<span id="cb37-23"><a href="#cb37-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Morgan Stanley SD QQ"</span>, <span class="at">x =</span> <span class="st">"Theoretical Quantiles"</span>, <span class="at">y =</span> <span class="st">"Sample Quantiles"</span>, <span class="at">caption =</span> <span class="st">"figure 6.3"</span>)</span>
+<span id="cb37-24"><a href="#cb37-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb37-25"><a href="#cb37-25" aria-hidden="true" tabindex="-1"></a>a <span class="sc">/</span> (b <span class="sc">|</span> c)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell quarto-layout-panel">
+
+</div>
+</section>
+</section>
+<section id="risk-calculations" class="level4">
+<h4 class="anchored" data-anchor-id="risk-calculations">Risk Calculations</h4>
+<div class="cell">
+
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb38"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>syn <span class="ot">&lt;-</span> <span class="fu">rCopula</span>(<span class="at">copula =</span> <span class="fu">tCopula</span>(t_params[<span class="dv">1</span>], <span class="at">df =</span> t_params[<span class="dv">2</span>], <span class="at">dim =</span> <span class="dv">2</span>), <span class="at">n =</span> <span class="dv">10000</span>) </span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+<div class="cell">
+
+</div>
+</section>
+</section>
+</section>
+
+</main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
